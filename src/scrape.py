@@ -1,72 +1,69 @@
-# from csv import writer
-# from encodings.utf_8 import encode
-# from itertools import tee
-# from re import S
-# from time import sleep
-# from types import new_class
-# from bs4 import BeautifulSoup,SoupStrainer
-# from bs4 import NavigableString
-# # from bs4 import UnicodeDammit
-# import requests
 
-
-# URL = "https://us.forums.blizzard.com/en/wow/t/missed-opportunity-for-df/1367233"
-
-# def test_bs4():
-#     page = requests.get(URL)
-#     sleep(5)
-#     soup = BeautifulSoup(page.content,"lxml")
-    
-#     with open('WowClass',"wb")as w:
-#         w.write(soup.prettify(encoding="utf-8"))
-
-#     # print(soup.find_all('p')) 
-#     # new_str = soup.find_all('p')
-#     # div class="post" itemprop="articleBody"
-
-#     # print(type(new_str))
-#     # print(soup.prettify(encoding='utf-8'))
-#     # for tag in soup.find_all(True):
-#     #     print(tag.name)
-#     only_p_tags = SoupStrainer("p")
-#     with open('WowClass',encoding="utf8")as f:
-#         text = BeautifulSoup(f,'lxml',parse_only=only_p_tags)
-#     # print(text.find_all('p'))
-#     print(list(text.stripped_strings)[1])
-
-# def get_top_posts():
-#     page = requests.get('https://us.forums.blizzard.com/en/wow/c/classes/174/l/top?period=quarterly')
-#     sleep(5)
-#     only_a_tags = SoupStrainer("a")
-#     soup = BeautifulSoup(page.content,"lxml",from_encoding='utf-8',parse_only=only_a_tags)
-#     # text = soup.find_all(['td','a'])
-#     # text = soup.find_all('a')
-    
-#     # table class='topic-list'
-#     print(soup['class'])
-#     # print(soup.prettify(encoding="utf-8"))
-#     # print(text)
-
-
-# if __name__=="__main__":
-    
-#     get_top_posts()
-
-import selenium
+import time
+import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+import no_detect
 
+
+
+
+def get_class_page(driver,url):
+    driver.get(url)
+    time.sleep(5)
     
-main_path = "https://us.forums.blizzard.com/en/wow/c/classes/174/l/top?ascending=true&order=posts"
-main_page = webdriver.Chrome(main_path)
+    author = driver.find_elements(By.CSS_SELECTOR,'td.creator')
+    author = [c.text for c in author]
+    
+    topic = driver.find_elements(By.CSS_SELECTOR,'td.main-link.clearfix')
+    topic = [t.text for t in topic]
 
-dk = '//*[@id="ember901"]/div[1]/a/div[2]'
+    replies = driver.find_elements(By.CSS_SELECTOR,'td.num.posts-map.posts.topic-list-data > button > span')
+    replies = [r.text for r in replies]
 
-dk_page= main_page.find_element_by_xpath(dk)
-dk_page.click()
+    views = driver.find_elements(By.CSS_SELECTOR,'td.num.views > span')
+    views = [v.text for v in views]
 
-   
-   
+    link = driver.find_elements(By.CSS_SELECTOR,'td.main-link.clearfix > span > a')
+    link = [l.get_attribute('href') for l in link]
+    driver.quit()
+
+    df = pd.DataFrame(list(zip(topic,author,views,replies)),columns=['topic','author','views','replies'])
+    return df
+
+def get_replies(driver,url):
+    time.sleep(5)
+    driver.get(url)
+    # comments = driver.find_elements(By.CSS_SELECTOR,'p')
+    # comments = driver.find_elements(By.CSS_SELECTOR,'div > div.topic-body.clearfix > div.regular.contents > div')
+    comments = driver.find_elements(By.XPATH,'//*[contains(concat( " ", @class, " " ), concat( " ", "post-stream", " " ))] | //*[contains(concat( " ", @class, " " ), concat( " ", "highlighted", " " ))]')
+    # comments = driver.find_elements(By.XPATH,'.//*[@id="post_1"]/div/div[2]/div[2]/div[1]')
+    comments = [com.text for com in comments]
+    # comments = comments[3:]
+    time.sleep(5)
+    author = driver.find_elements(By.XPATH,'.//*[contains(concat( " ", @class, " " ), concat( " ", "character-name", " " ))]')
+    author = [a.text for a in author]
+    
+    df = pd.DataFrame(list(zip(comments,author)),columns=['comments','author'])
+    return df
+    
 
 
-
+if __name__== "__main__":
+    
+    # service = Service('C:\chromedriver_win32\chromedriver')
+    # driver = webdriver.Chrome(service=service)
+    # url = 'https://us.forums.blizzard.com/en/wow/c/classes/death-knight/175'
+    url = 'https://us.forums.blizzard.com/en/wow/t/please-fix-momentum-before-launch-day/1381495'
+ 
+    
+    driver= no_detect.WebDriver()
+    driver_instance = driver.driver_instance
+    # df = get_class_page(url=url,driver=driver_instance)
+    dfc = get_replies(driver_instance,url)
+    # dfc = pd.DataFrame(data = comments,columns=['comments'])
+    print(dfc)
+    driver_instance.quit()
+# for next page
+# <div role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="topic-body crawler-post">

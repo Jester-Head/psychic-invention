@@ -1,0 +1,334 @@
+1667962627439	geckodriver	INFO	Listening on 127.0.0.1:65209
+1667962630493	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "65210" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofilevO8dTW"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1667962631718	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofilevO8dTW\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:65210/devtools/browser/4b295d04-27b3-4a88-8b62-9a2c45e08916
+1667962635364	Marionette	INFO	Listening on port 65221
+1667962635850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667962882880	Marionette	INFO	Stopped listening on port 65221
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1667962883119	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1667962994585	geckodriver	INFO	Listening on 127.0.0.1:65351
+1667962997620	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "65352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofilelcVyfa"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1667962998440	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofilelcVyfa\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:65352/devtools/browser/a90403db-8087-4c7d-b8e6-5af637793541
+1667963001798	Marionette	INFO	Listening on port 65358
+1667963001846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667963053564	Marionette	INFO	Stopped listening on port 65358
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1667963054333	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1667963055727	geckodriver	INFO	Listening on 127.0.0.1:65392
+1667963058764	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "65393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileuteQFk"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1667963059717	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileuteQFk\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:65393/devtools/browser/6933a4e4-582f-4f55-ab23-6b7e003e00b5
+1667963063254	Marionette	INFO	Listening on port 65404
+1667963063602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667963078678	Marionette	INFO	Stopped listening on port 65404
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1667963079273	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1667963246341	geckodriver	INFO	Listening on 127.0.0.1:49154
+1667963249392	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "49155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofile4SR6hg"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1667963250270	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofile4SR6hg\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:49155/devtools/browser/9e473f2a-1a0c-47bd-9bc1-e65eb0b45f09
+1667963253785	Marionette	INFO	Listening on port 49164
+1667963254204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 128: NS_ERROR_CONNECTION_REFUSED: Component returned failure code: 0x804b000d (NS_ERROR_CONNECTION_REFUSED) [nsIScriptableInputStream.available]
+console.log: "TorSettings: saveToPrefs()"
+console.log: "TorSettings: applySettings()"
+console.log: "TorConnect: beginBootstrap()"
+console.log: "TorConnect: Try transitioning from Initial to Bootstrapping"
+console.log: "TorConnect: Exited Initial state"
+console.log: "TorConnect: Entering Bootstrapping state"
+JavaScript error: resource://gre/actors/RemotePageChild.jsm, line 116: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIXPCComponents_Utils.cloneInto]
+console.log: "TorConnect: cancelBootstrap()"
+console.log: "TorConnect: Try transitioning from Bootstrapping to Configuring"
+console.log: "TorConnect: cancelBootstrap()"
+JavaScript error: resource:///modules/TorConnect.jsm, line 637: Error: TorConnect: Attempted invalid state transition from Configuring to Configuring
+JavaScript error: resource:///modules/sessionstore/SessionFile.jsm, line 375: Error: _initWorker called too early! Please read the session file from disk first.
+1667963557725	Marionette	INFO	Stopped listening on port 49164
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1667963558445	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+ "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1667963564576	geckodriver	INFO	Listening on 127.0.0.1:49592
+1667963567625	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "49593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileXe2Sct"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1667963568350	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileXe2Sct\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:49593/devtools/browser/2c58e6fe-d69c-4b7c-98c2-423c8446af76
+1667963572277	Marionette	INFO	Listening on port 49600
+1667963572449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/sessionstore/SessionFile.jsm, line 375: Error: _initWorker called too early! Please read the session file from disk first.
+1667963611529	Marionette	INFO	Stopped listening on port 49600
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1667963612293	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1668022055983	geckodriver	INFO	Listening on 127.0.0.1:51106
+1668022059067	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "51107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileOyY50o"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1668022059833	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileOyY50o\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:51107/devtools/browser/1c930b8f-d9e5-430b-8d1e-38f0abbcf0e8
+1668022063005	Marionette	INFO	Listening on port 51113
+1668022063279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: "TorConnect: beginBootstrap()"
+console.log: "TorConnect: Try transitioning from Initial to Bootstrapping"
+console.log: "TorConnect: Exited Initial state"
+console.log: "TorConnect: Entering Bootstrapping state"
+console.log: "TorConnect: cancelBootstrap()"
+console.log: "TorConnect: Try transitioning from Bootstrapping to Configuring"
+console.log: "TorConnect: cancelBootstrap()"
+JavaScript error: resource:///modules/TorConnect.jsm, line 637: Error: TorConnect: Attempted invalid state transition from Configuring to Configuring
+1668023001216	Marionette	INFO	Stopped listening on port 51113
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1668023001371	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1668023018150	geckodriver	INFO	Listening on 127.0.0.1:52128
+1668023021253	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "52129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofilejD0QBD"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1668023022117	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofilejD0QBD\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:52129/devtools/browser/80e0c8af-c830-4504-bc4b-78b176c0f1a2
+1668023025578	Marionette	INFO	Listening on port 52135
+1668023026102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: "TorConnect: beginBootstrap()"
+console.log: "TorConnect: Try transitioning from Initial to Bootstrapping"
+console.log: "TorConnect: Exited Initial state"
+console.log: "TorConnect: Entering Bootstrapping state"
+1668023050917	Marionette	INFO	Stopped listening on port 52135
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1668023051416	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1668030722889	geckodriver	INFO	Listening on 127.0.0.1:51174
+1668030725956	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "51175" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofile08orDJ"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1668030727256	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofile08orDJ\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:51175/devtools/browser/3f341adc-8d3c-47fc-baf6-85d7a6591195
+1668030730578	Marionette	INFO	Listening on port 51182
+1668030730781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: "TorConnect: beginBootstrap()"
+console.log: "TorConnect: Try transitioning from Initial to Bootstrapping"
+console.log: "TorConnect: Exited Initial state"
+console.log: "TorConnect: Entering Bootstrapping state"
+console.log: "TorConnect: cancelBootstrap()"
+console.log: "TorConnect: Try transitioning from Bootstrapping to Configuring"
+console.log: "TorConnect: cancelBootstrap()"
+JavaScript error: resource:///modules/TorConnect.jsm, line 637: Error: TorConnect: Attempted invalid state transition from Configuring to Configuring
+1668030770693	Marionette	INFO	Stopped listening on port 51182
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1668030771270	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1668030827078	geckodriver	INFO	Listening on 127.0.0.1:51340
+1668030830131	mozrunner::runner	INFO	Running command: "C:\\Users\\sarah\\Desktop\\TorBrowser\\Browser\\firefox.exe" "--marionette" "--remote-debugging-port" "51341" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileFxcqYM"
+console.log: "TorConnect: init()"
+console.log: "TorConnect: Entering Initial state"
+console.log: "TorConnect: Observed profile-after-change"
+console.log: "TorConnect: Observing topic 'TorProcessExited'"
+console.log: "TorConnect: Observing topic 'TorLogHasWarnOrErr'"
+console.log: "TorConnect: Observing topic 'torsettings:ready'"
+console.log: "TorSettings: Observed profile-after-change"
+1668030830939	Marionette	INFO	Marionette enabled
+console.log: "TorConnect: Will load after bootstrap => [about:blank]"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sarah\\AppData\\Local\\Temp\\rust_mozprofileFxcqYM\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not load engine blockchair-onion@search.mozilla.org: Error: Extension is invalid"
+DevTools listening on ws://localhost:51341/devtools/browser/2febced5-fa89-443d-8757-929434d71475
+1668030834265	Marionette	INFO	Listening on port 51348
+1668030834340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: "TorConnect: beginBootstrap()"
+console.log: "TorConnect: Try transitioning from Initial to Bootstrapping"
+console.log: "TorConnect: Exited Initial state"
+console.log: "TorConnect: Entering Bootstrapping state"
+JavaScript error: resource://torbutton/modules/tor-control-port.js, line 128: NS_ERROR_CONNECTION_REFUSED: Component returned failure code: 0x804b000d (NS_ERROR_CONNECTION_REFUSED) [nsIScriptableInputStream.available]
+console.log: "TorSettings: saveToPrefs()"
+console.log: "TorSettings: applySettings()"
+1668030894633	Marionette	INFO	Stopped listening on port 51348
+console.error: 
+  TypeError: window.BrowserWindowTracker.getTopWindow() is null: maybeNotifyUserToReload@chrome://browser/content/preferences/privacy.js:1884:52
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+set value@chrome://global/content/preferencesBindings.js:529:14
+observe@chrome://global/content/preferencesBindings.js:108:9
+Preferences.reset@resource://gre/modules/Preferences.jsm:232:20
+restorePreferences@chrome://remote/content/shared/RecommendedPreferences.jsm:327:19
+restoreAllPreferences@chrome://remote/content/shared/RecommendedPreferences.jsm:314:10
+observe@chrome://remote/content/shared/RecommendedPreferences.jsm:306:12
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2849:20
+despatch@chrome://remote/content/marionette/server.js:306:40
+execute@chrome://remote/content/marionette/server.js:279:16
+onPacket/<@chrome://remote/content/marionette/server.js:252:20
+onPacket@chrome://remote/content/marionette/server.js:253:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1668030895432	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
