@@ -1,0 +1,253 @@
+comment,date,class
+"idk what’s going on - ever since prepatch ive been getting constant disconnects to WoW only, I keep saving/using this macro and every time I DC or log off for the night it goes away","Nov 19, 2022 2:21 pm",Warrior
+"#showtooltip
+/cast [stance:2]!Defensive Stance;!Battle Stance","Nov 19, 2022 6:17 pm",Warrior
+"PVE: We got nerfed a month ago, Fury is superior for PVE yet again (been waiting 4 years to play arms again, skipped Shadowlands arms bc shadowlands… missed when it was strong)","Nov 14, 2022 5:33 pm",Warrior
+Pvp: health pool increase for players 40% with no arms buff? Arms is a burst class not only will everyone have max lv pvp gear (increased hp pool) but also the player health buff is a huge nerf to bursty pvp arms warrior. So yet again we Warriors will be forced Fury again! Oh boi! I can’t wait to smash my raging blow button 8x more than my other buttons… other buttons being 2 buttons. Geeee so glad I never get to play my main arms warrior in pve/pvp. I’ll just be a meme and not get invited to groups b/c this company has no balance or hindsight when iterating changes. So tired of this! At least I’ll have more fun healing on my alt bc of the changes.,"Nov 15, 2022 12:26 am",Warrior
+I was so excited to play Arms after levelling it to 70 in beta after maining Outlaw for like 90% of Shadowlands.,"Nov 15, 2022 4:23 am",Warrior
+"Can’t really justify changing mains now, it’s really that bad as Arms.","Nov 15, 2022 2:01 pm",Warrior
+"I’m just disappointed with recent changes.
+You can still perform well on it and the spec it’s self is sooo fun! You can clear all content on it. However, with Fury being technically superior in mythic+/raiding/pvp that’s the ideal spec to play. It’s hard to justify maining arms…
+Some groups may decline and opt for something else or may only take a fury over an arms (depends on the group)
+Anyways, play what your better at, enjoy more, & will perform better with! But gosh darn do I hope my favorite spec Arms gets some love and buffs.","Nov 19, 2022 10:12 am",Warrior
+I’m really perplexed behind the design decision behind making fury bursty and making arms a weird obsolete mess. It was always that fury was the sustained damage/healing PvE spec and Arms was high damage burst with a lot of utility and toolkit for many situations.,"Nov 19, 2022 11:46 am",Warrior
+"The recent two expansions theres a huge disconnect between the gear I’m equipping and what’s translated on screen. A two hander in melee combat should hit the hardest. I guess that’s why classic is so popular, you still feel that connection.","Nov 19, 2022 5:33 pm",Warrior
+"Disclaimer: this build works better than standard SMF, but I cannot rate it compared to Reckless Abandon TG Crushing Blow due to lack of data and ability to test. Every meta lord with years of retail experience has already determined that TG is the best, probably with Reckless Abandon because Crushing Blow, a rage generator, effectively hits harder than an 80 rage spendor, it’s bonkers. This build with daggers is probably going to be less dps than what warriors with years of theory crafting experience have figured out. I’m coming in with 2 weeks of retail experience because I stopped playing when talent trees were removed and now that they’re back, fun build diversity has a chance of existing and I’m here to take fun builds as far as they can go! It’s long shot, but this build has a possibility of being meta!?","Aug 15, 2022 10:00 pm",Warrior
+"Daggers are only 5.5% AP behind Strength 1 handers. It’s laughably easy to make up for that deficit (see post 33 for AP math). Remember I’m only comparing daggers to 1 handers for SMF, Not Meta TG, I don’t have the data for that, yet. And now that disclaimers are out of the way, the actual post (revision, oh god, 15?)","Aug 15, 2022 11:02 pm",Warrior
+"Introducing DAGGERS! Which now work with all fury abilities and talents. Why Daggers? You get 35% more auto attack rage with using daggers with annihilator than you do with standard 2.6 speed Single Minded Fury Weapons and a hilarious amount more rage than Titan’s Grip. Y’know how standard Single Minded Fury builds are bloodthirsting every other GCD and occasionally running out of buttons to press? Throw that ideology in the garbage because you’re going to be RAMPAGING EVERY OTHER GCD. You stabby stab A LOT and pop recklessness every 27 seconds, leading to easily 100% recklessness uptime and ~45% Avatar uptime. Now 45% avatar uptime SOUNDS GREAT! And it is! When compared to standard Strength 1 hander SMF, the extra recklessness and avatar uptime probably translates to 2-8% more dps, which starts to make up for that 5.5% ap loss!","Aug 15, 2022 11:02 pm",Warrior
+"It is right! Using Slam or Bloodthirst, you only end up losing about 11 rage per 1.7 second Rampage->[Bloodthirst OR slam] Cycle. You single handedly make up for 3.625 Rampage->[Bloodthirst Or Slam] cycles with ONE use of onslaught. And you’re popping onslaught every 10 seconds. Meaning if you get just 3 Sudden Death Procs Per Minute, you have enough rage to keep Rampaging every other attack, forever. You can see my math on this down in post 22, based off haste values I could get on a fresh 60 with not perfectly optimized 260 gear. Basically, if you can hit just 37% character sheet haste on average (include the average haste provided by the new weapon procs!), without including Frenzy/Enrage haste, you can Rampage every other attack forever. With the Tier set bonus providing more sudden death procs, we’ll probably be seeing enough rage to hit rage cap and relatively sometimes press Rampage more than once every other attack, but doing this without a frothing berskerer proc is hard, unless you’re -ugh- a gnome, because you’re regularly going to be just five rage short of being able to Rampage->Rampage at 130 rage without a frothing berserker proc and 100% GCD usage.","Aug 15, 2022 11:03 pm",Warrior
+"Also, because of the 44% faster attack speed, you’ll have 44% more Slaughtering Strikes stacks on your Rampage! And since you’re using it every other GCD, you’ll never waste potential stacks going above 5! This is worth at least a 2% rampage damage increase, possibly 3-5%.","Aug 15, 2022 11:05 pm",Warrior
+"Now lets look at standard strength weapon Single Minded Fury builds. I’m hearing they have to Bloodthirst every global cooldown just to have enough buttons to press or they spend time twiddling their thumbs waiting for things to come off the GCD. Bloodthirst is terrible, even with 10% increase damage talents it’s only 79% of your AP! That’s like HALF of Rampage!! Garbage, other than maybe the bleed applies, which is primarily used in AoE settings. Even if you were to spec Reckless abandon and give get Bloodbath instead, it’s only 110% ap, still garbage. Oh ""it gets faster cooldown and can be used to put more bleeds up quickly! Who Cares! After a whirlwind, we can still Rampage->Bloodthirst->Rampage->Bloodthirst. EZ PZ for better effect, we can almost always fit 2 rampages in the 4 charges after a whirlwind, that’s a lot more damage and we still easily put up two bloodthirsts to get them bleeds rolling. With the forever 20% Crit from recklessness, we bleed all the things!","Aug 15, 2022 11:42 pm",Warrior
+"You lose up to 5.5% damage per hit and gain 44% more hits. ~35% increase in damage before even considering other factors like increased recklessness/avatar uptime making up for a lot of that 5.5% damage loss. Oh and the rage gain? Factoring in the same rage from white hits, Daggers will get about 35% more rage from auto attacks thanks to annihilator. This is why with daggers we can Rampage every other attack, and one handers can’t.","Aug 15, 2022 11:50 pm",Warrior
+"No, not without SOME MORE DISCLAIMERS. Yep, fury warrior players get REALLY MAD when you doing anything other than talk about Titan’s Grip. It’s like they take this whole rage based gameplay and apply it to real life. So, with that said, the following spec has a bunch of filler/flex talents and some of the thoughts on it are not finalized. Everyone is expecting bleeds to be amazing and they’re probably right. So I’m going to link two specs, the “probably right spec” (for… daggers…) and the even more risky spec that relies on even harder speculation, but has a higher chance of somehow being good.","Aug 16, 2022 9:09 am",Warrior
+"Yeah, I know, it’s hard to believe that an annihilator build wouldn’t go Dancing Blades being auto attack focused and all, but Onslaught scales way better with haste and provides almost twice the rage gain, it’s not even close. That being said, there’s a possibility that the damage gain from Dancing blade might be worth, but I doubt it cuz Onslaught still SLAPS. Maybe in… Dagger warrior PvP? dies of arena cringe","Aug 16, 2022 9:19 am",Warrior
+"Now this spec, this spec is JUICY. It gets all of the execute talents, which should combo with our set bonus. It takes ~3 executes per 45 seconds to equal the damage loss of not having Odyn’s Fury and doesn’t really get better until you get 4 executes per 45 seconds.","Aug 16, 2022 9:29 am",Warrior
+"Spear of Bastion is kinda just a hail mary for rage gen, it might suck and 2 points in Thunderous Roar might be better. The on demand +80 rage sounds good after a Back-to-Back Rampage->Rampage cycle though and if we get to a point where we can start to push Back-to-Back Rampages more frequently, the +80 rage is a nice way to smooth out deficits. Now that our only bleed is coming from Bloodthirst, it probably makes sense to swap to Blood Craze to something like Bloodborne, for more Bloodthirst Crits rather than more Bleed Damage. With Whirlwind having a larger rage deficit than Bloodthirst/slam, (15-19 vs 11), the extra rage from Spear of Bastion might somehow make for better AoE DPS than Thunderous Roar. I’m not 70, I can’t test it, I could be wrong and feel free to correct me, if you can actually go out and test it, with daggers. Otherwise, shut up, I’ve already stated it might not be better, it’s just worth thinking about.","Aug 16, 2022 9:50 am",Warrior
+"How are you going to get daggers if you don’t have a rogue friend to trade you their hard earned drops? Actually, EASY! but EXPENSIVE and/or a HUGE TIME INVESTMENT
+This is how I’m getting a dagger:","Aug 18, 2022 6:43 am",Warrior
+"(link description for those not feeling clicky, It’s link to a Blacksmithing profession tree with 150 knowledge point spent to craft mythic tier daggers)
+Blacksmithing is a source of Mythic Quality weapons, but it’s expensive, resource limited, and possibly a complete waste of time. Though if this build doesn’t work out, I hope to be one of the only idiots who maxed daggers so hard, maybe I’ll be able to make a buck?","Aug 18, 2022 7:17 am",Warrior
+"Yeah, so I’ve been focusing on getting SO MANY RAMPAGES, you’d think it’d be amazing right? Well if you spec Reckless Abandon: Crushing Blows, if you include the slaughter strike benefit as part of Crushing Blow’s damage, it hits harder than rampage and they’re a RAGE GENERATOR. Standard Reckless Abandon Titan’s Grip can already almost keep up a cycle of Rampage->Crushing Blow->Crushing Blow and then repeat. Maybe cast 1 extra raging blow here and there and they’re good. They’re basically already casting a better Rampage three time in a row already and that’s before considering the strength difference. The best we can pray for is that our Recklessness and Avatar Uptime put us remotely close to the damage, but I haven’t run the numbers, so what do I know!","Aug 18, 2022 7:56 am",Warrior
+"Maybe you thought you could get some of that JUICY 60% slaughtering strike action from Onslaught’s bonus talent, Tenderize? Guess again, because when you pick up annihilator, the Tenderize goes from 60% Bonus rampage damage to 6%, and since you always have at least 4 stacks out of 5 of annihilator from how fast daggers swing, tenderize becomes only a 2% increase on your next rampage’s damage. This has to be an oversight by their dev team, I cannot believe they would think that nerfing this talent from 60% bonus damage on your next rampage to at best 6% was for balancing reasons. It’s so, so bad in it’s current state it’s not worth considering.","Oct 26, 2022 2:43 pm",Warrior
+"I don’t know if Blizzard has changed anything in 18 years of WoW regarding PPM, but how it used to be is that your yellow attacks had the same PPM on things that can proc as your white attacks. Meaning if you were using faster weapons and doing the same number of yellow attacks, your proc rates GO DOWN. Using Daggers, we’re going to have much lower proc chances on our yellow attacks and that sucks for anything that doesn’t have an internal cooldown and high proc chance. Compared to typical Single Minded Fury, we might barely beat them in procs due to more rampage use, but compared to Titan’s grip with it’s slow weapon speeds and Raging blow that hits twice, we should get less procs than Titan’s grip players and that feels dumb, felt dumb in vanilla, and it probably still works that way. Please, please, please link me to some patch notes where this was changed sometimes since WotLK (the last time I played WoW seriously). I would love to hear that yellow attack PPM no longer considers weapon speed and treats all weapons as the same speed for yellow attacks. Apparently Blizzard switched to RPPM in MoP and this is no longer an issue. I looked into how it’s tracked and it makes sense! Yay!","Oct 26, 2022 7:20 pm",Warrior
+"Yep, they could just switch it to how it was, especially if somehow this spec ends up being too good. If Blizzard does nerf daggers/remove this, I’m going to claim that I won Dragonflight ^.^","Oct 27, 2022 12:53 am",Warrior
+"Blizzard has been shaking some things up a bit and letting things be more free. They’ve brought back the customizability of talent trees, which is only reason I bought dragonflight. If we have people running this spec and enjoying, who knows, maybe some devs will try it, have fun with it, and make changes that will benefit it. Blizzard has three different easy ways to make Dagger Warriors work/work better!","Oct 27, 2022 10:41 am",Warrior
+"This would be the best fix as it changes nothing else and makes a talent no meta build is taking an AMAZING option. Technically we wouldn’t be using daggers anymore, because you could have 1.8 speed FIST WEAPONS!","Oct 27, 2022 7:27 pm",Warrior
+Even if it’s just crafted daggers so they don’t appear in loot pools for angry titan grippers.,"Oct 28, 2022 6:30 am",Warrior
+"Making the change from Survival Hunter to Arms Warrior for Dragonflight. I started in Mists, and as such I am really overwhelmed by the talent system we just changed to.","Nov 17, 2022 2:53 pm",Warrior
+"Wondering if anyone has a fun Massacre/Bleed build that they wouldn’t mind sharing, been puzzling over it for a day or two now.","Nov 18, 2022 9:07 pm",Warrior
+Thanks!,"Nov 19, 2022 8:26 am",Warrior
+Been using:,"Nov 19, 2022 10:06 am",Warrior
+(topic deleted by author),"Nov 19, 2022 9:52 am",Warrior
+"Arms is terrible in arena. It lacks in all aspects, aside from utlity and may as well be a support/utility class at this point. The only reason I would play arms is to defend an FC in certain rbgs. Arms needs to do more damage and needs d stance to be 20/20 in PvP to be competitive as a spec.","Nov 16, 2022 6:58 pm",Warrior
+Second this.,"Nov 19, 2022 3:29 am",Warrior
+Third this.,"Nov 19, 2022 8:24 am",Warrior
+"I have played on and off since the original opening of AQ in vanilla, and in that time I have never felt as useless as I do now whilst leveling up with fury and doing dungeons. I am having priests spamming holy nova doing more damage than me dumping 4 points into Seismic Reverberation, barbaric Training & Meat cleaver. I’ve always felt I was alright at the game, but this is genuinely the first time I’ve felt like either the class is really lacking, or I just don’t got it anymore. I’m sure fury gets better at 60 and 70. But I seriously feel demoralized going from 1-50, so I ask again. Is Fury supposed to feel this useless early on?","Nov 19, 2022 5:40 am",Warrior
+"Fury struggles while levelling and when undergeared with secondary stats too low. For me personally, 25% haste is the minimum fir that stat. Crit and mastery compete depending on what build is better performing. In BFA mastery was not as important as haste and crit, whilst in SL haste and mastery took priority. Just practice your class and find a playstyle you enjoy and gear towards it, we have at least 2 builds that I can see being viable for DF as of now","Nov 19, 2022 6:37 am",Warrior
+"While using Reckless Abandon, Crushing Blows x2 doesn’t proc Battle Trance.","Nov 18, 2022 7:42 pm",Warrior
+at least its easier to play around than proc reck interrupting it.,"Nov 18, 2022 8:11 pm",Warrior
+I am new to dps warrior. Only know DF prot well so far.,"Nov 18, 2022 12:10 pm",Warrior
+What is my rotation? I am running the following two builds: https://www.wowhead.com/talent-calc/warrior/fury/DAPEVRUUEEJUFQlBAQBEOVVEVUBVEBRIFAEBQ 6 and https://www.wowhead.com/talent-calc/warrior/fury/DAPEFRUUEkJUQQlBAQBENVVERUVFAVQgUBA 6 for single target and aoe respectively.,"Nov 18, 2022 12:33 pm",Warrior
+"Honestly, I prefer the second build playstyle wise but I am unclear on rotations.","Nov 18, 2022 5:21 pm",Warrior
+"First build (rampaging blow) is simple. Basically always Rampaging blow to build and then rampage. I don’t slam at all, and whirlwind only on aoe unexpected but it tickles. I bloodthirst mostly for the healing etc.","Nov 18, 2022 6:14 pm",Warrior
+I would like to see this lower the CD of the Challenge by 30s. (From 90s to 60),"Nov 18, 2022 1:51 pm",Warrior
+"Or if I am getting greedy,
+Make Challenging Shout 60s CD and always interrupts casters.
+Then add an AoE chain pull in the spot of Disrupting Shout.","Nov 18, 2022 5:24 pm",Warrior
+"Blood surge was nerfed from a 15% chance to gain 5 rage down to a 10% chance. That’s 33% nerf to our second highest rage generator. Single target this is now useless, it won’t be taken for Raid builds. Mythic+ it’s bottom tier for rage generation.","Nov 17, 2022 10:11 am",Warrior
+I can definitely feel the lack of rage. With gear resetting it’s going to be a hard pill to swallow.,"Nov 18, 2022 6:42 am",Warrior
+"As a fellow Warrior main, I feel our class has been too strong recently. Would it not be better for us if our class was more balanced for once, allowing for some skill expression in how we perform?","Oct 25, 2022 4:30 pm",Warrior
+"Don’t get me wrong, I like being OP on warrior as much as the next guy, but I feel like it’s only going to cause blizzard to come at us even harder with the nerf hammer. I would much rather be balanced overall this tier so that we don’t get crushed come the next patch.","Oct 25, 2022 4:31 pm",Warrior
+Any thoughts on this?,"Oct 25, 2022 9:58 pm",Warrior
+"I truly agree with this post, please make them irrelevant.","Oct 25, 2022 10:12 pm",Warrior
+you salty from warriors wrecking you so now you are doing some twisted reverse psychology to get them nerfed?,"Oct 26, 2022 12:44 am",Warrior
+His guild name checks out.,"Oct 26, 2022 2:50 am",Warrior
+caster hands crafted this post,"Oct 26, 2022 4:34 am",Warrior
+Let’s wait till the expansion to actually come out before we get our panties inna bunch,"Oct 27, 2022 3:22 am",Warrior
+"fury is 100% stupid op, too much self healing lots of defensives, lots of mobility, anti mobility its rediculous","Oct 27, 2022 4:49 am",Warrior
+Oh yea lets nerf us now when we finally have been fixed that way it wont be so bad later on…,"Oct 27, 2022 6:57 am",Warrior
+Error 404 logic not found,"Oct 27, 2022 7:00 am",Warrior
+When has this ever worked,"Oct 27, 2022 6:33 pm",Warrior
+"Fury has got the raw end of the stick for the past 3 expansions at the start. Totally undertuned every time. I hope they are seriously OP for once at the start of an xpac. Archimtiros reckons they are underwhelming on the dps side, from what ive seen I kinda agree with him drops mic","Oct 27, 2022 6:40 pm",Warrior
+How about we get through the pre-patch Past (November 15th) before we (Warrior Mains) start clamoring for nerfs to our class. At least this way we can see if going forward into DF if it was just the pre-patch or other issues.,"Oct 27, 2022 6:47 pm",Warrior
+"You must love those players who come bearing gifts masked like something else. Hi, my avatar is that of my Hunter BUT I’m a warrior main so don’t worry. Do you guys think we should ask for our class to be nerfed Now? Because I feel as though we are performing well above what we should have done during the DF pre-patch.","Oct 27, 2022 9:00 pm",Warrior
+“Sarcasm”.,"Oct 28, 2022 12:53 am",Warrior
+"As a warrior myself, i totally agree with your message. We’ve been the best melee class in ALL of shadowlands. Also best in raid. Why are the devs not noticing it? We ARE WAY TOO OP. Please nerf, i want to be proud of myself, not be so clearly overpowered it’s not fun.","Oct 28, 2022 2:54 am",Warrior
+Really hard to believe that warriors are looking to be the most stackable raid dps for the third expansion in a row. I’m sick of pugs saying I’m carried by my op class. Nerf pls blizz!,"Oct 28, 2022 3:26 am",Warrior
+For real. I think it’s finally time to let some other classes shine for once. I’m sick of effortlessly being top dps every boss and m+ dungeon. Make me try for once blizzard!,"Oct 28, 2022 7:04 pm",Warrior
+I agree. I played warriors since OG vanilla (on and off) and Blizzard either makes us too strong or too weak. How about being middle of the pack for once? They should give ret paladins rallying cry but call it aura mastery. That way we don’t have to stack this class.,"Oct 28, 2022 7:05 pm",Warrior
+"Thought you were a dps spec? Think again, because that level 10 healer that hasn’t even spent a talent point in the spec tree yet will probably out-dps you.","Nov 8, 2022 1:59 am",Warrior
+"The dps for a leveling fury warrior is atrociously low. I’ve been playing this game for 17 years, and I have never seen anything even close to this sorry state. I know the game is “Supposed to be balanced for max level” and I agree. But this is something else entirely. This is not a viable spec for pre-endgame content.","Nov 8, 2022 9:09 am",Warrior
+"Because of the talent tree design, you do not have your main spender that the spec is built around, Rampage, until you’re 13 talent points in. Until then you’re perpetually capped at 100% rage or hitting off-spec trash buttons like “slam.”","Nov 8, 2022 9:27 am",Warrior
+"And even then, when you get rampage, it’s awful. See that 13? That was a big crit.","Nov 8, 2022 10:06 am",Warrior
+"Can you imagine paladin not having Templar’s Verdict, or rogue not having something to spend combo points?","Nov 8, 2022 11:50 am",Warrior
+"This is a real shame, because the spec is fun mechanically—action packed, fast, zooming around. But, with the leveling experience being so undertuned, you kind of are hoping the whole time “I hope I like this spec some day, when I have already leveled and geared.”","Nov 8, 2022 12:21 pm",Warrior
+Oh nooos! Someone sub lvl 30 is capped on rage! To the forums! Lmao,"Nov 8, 2022 12:33 pm",Warrior
+I hope this post is a joke but sadly i fear it isn’t,"Nov 8, 2022 12:45 pm",Warrior
+Just because you disagree with him doesn’t mean you have be rude about it.,"Nov 8, 2022 12:51 pm",Warrior
+While leveling is really fast not having rampage until level 27 is a terrible feeling.,"Nov 8, 2022 12:54 pm",Warrior
+Fury is a pain train that never stops and rampages animation and damage are what make fury so fun.,"Nov 8, 2022 1:00 pm",Warrior
+Slam just slows the spec down cause it takes 5 or so to fully spend rage.,"Nov 8, 2022 1:02 pm",Warrior
+Plus level 27 is going to be 40% of our max level in DF. 40% for our main spenders just crazy man.,"Nov 8, 2022 1:09 pm",Warrior
+"From the perspective of people that have already played it, yea maybe. However let’s not completely ignore the new player experience and how they are, and should be, eased into specs, especially ones as fast and frenetic as fury.","Nov 8, 2022 1:12 pm",Warrior
+That’s the exact reason why Fury should get it’s main spender much earlier. Imagine people learn for 27 levels to spend their resource with Slam or maybe even not to spend their resource at all.,"Nov 8, 2022 1:14 pm",Warrior
+Imagine thinking replacing the little slam icon on your bar with the little rampage icon was going to break ppls brains…,"Nov 8, 2022 1:20 pm",Warrior
+For a new player who doesn’t look up outside info it could be confusing which spender to use. It would make much more sense to give fury access to rampage within the first 15 levels.,"Nov 8, 2022 1:27 pm",Warrior
+Read the forums and you’ll see how little people know about even their main specs.,"Nov 8, 2022 1:39 pm",Warrior
+Not for anyone working with more than one brain cell.,"Nov 8, 2022 2:06 pm",Warrior
+You automatically lose any credibility to an argument the second your reference becomes the forums,"Nov 8, 2022 2:40 pm",Warrior
+"It’s been shown in below posts that Tenderize becomes a near worthless talent, if you have annihilator. The Slaughtering Strikes buff updates to being the same as what Annihilator gives, losing 50%+ damage on your next Rampage. This is a effectively a 30% damage NERF, making this talent not worth taking, ever, if you have annihilator. The fix is incredibly simple and it’s just to make it put out 3 stacks of 20% Slaughtering Strikes, regardless of Annihilator. You could even have it not stack at all with annihilator slaughtering strikes if there’s worries of it being OP, we already have precedent for things like “A more powerful spell is already active.”","Nov 17, 2022 6:38 am",Warrior
+"Simple Fury Tree question, how do the Slaughtering Strikes From Annihilator + Tenderize work?","Nov 17, 2022 5:08 pm",Warrior
+Worse Cases: Onslaught’s Tenderize gets Nerfed to 2% (from 20%) making it useless. Or Annihilator replaces Tenderize 20% stacks with 2% stacks. Or Annihilator stacks cannot be gained while a more powerful buff from tenderize is active.,"Nov 17, 2022 5:13 pm",Warrior
+"Probable Case:
+Tenderize gives 3 stacks of 20% rampage damage (60% total), that stacks with up to 10% increased rampage damage from Annihilator. Would it be Additive or Multiplicative though? 1 x 1.6 x 1.1 = 176% Rampage damage or 1 x (1.6+.1) = 1.70%","Nov 17, 2022 6:03 pm",Warrior
+"Just leveled a warrior in prepatch. I’ve noticed my bloodthirst will occasionaly become bloodbath and do a little extra damage, but not sure what causes this effect. I don’t see a passive on my spell log, and unless I overlooked it I don’t see anything in my talent tree causing it. Can someone please tell me what is causing the effect? I’m just curious.","Nov 16, 2022 5:29 pm",Warrior
+Reckless abandon talent makes rampage transform bloodthirst to a more powerful version called bloodbath,"Nov 16, 2022 5:39 pm",Warrior
+As does one of the choice nodes for Odyns Fury.,"Nov 16, 2022 6:37 pm",Warrior
+This was removed and changed to deal 10% increased damage and proc whirlwind buff instead,"Nov 17, 2022 11:48 am",Warrior
+I’m getting out dps’d by tanks with lower ilvl and not even close to the dps of other people near my ilvl in mythic. An arms warrior really did a number on me on the charts too. Did we get tuned down? I feel like I got rez sickness lol…,"Nov 12, 2022 4:53 pm",Warrior
+"No, no nerfs todat","Nov 12, 2022 7:40 pm",Warrior
+"Feels like it, Fury needs buffs it is falling behind again","Nov 16, 2022 10:29 pm",Warrior
+"Also with the changes to reckless abandon the pvp talent battle trance seems to be bugged again. Before it used to trigger off crushing blows, now it doesn’t. And I’m pretty sure you could combo ragingblow/crushing blow to get your 2 rb/cb for battle trance to trigger. /lesigh","Nov 16, 2022 11:01 pm",Warrior
+"Once you know its bugged, its far easier to play around it now than it was previously. Just double tap raging blow before pressing rampage and going into a crushing blow cycle. Crushing blow won’t proc trance, but it also won’t remove trance if you use it on other targets. Just gotta reapply it every 18 seconds.","Nov 17, 2022 6:23 am",Warrior
+As the title states. I’m looking to make the silliest Fury Warrior. Excluding gnome. Already got one on an alt server I play on.,"Nov 7, 2022 7:17 pm",Warrior
+"This can be silly animations, silly looking transmogs, silly sounds. Really anything you think that makes it goofy","Nov 7, 2022 9:30 pm",Warrior
+"Personally, I find Panda anything goofy…","Nov 7, 2022 9:36 pm",Warrior
+female panda have the best dual wield animations out there.,"Nov 8, 2022 2:26 am",Warrior
+Night elf they look laughable,"Nov 8, 2022 3:05 am",Warrior
+Vulpuppy,"Nov 9, 2022 3:53 am",Warrior
+10char,"Nov 9, 2022 12:33 pm",Warrior
+Fair to a point but pandaa have some of the best ( (mele/sprint etc) animations. I don’t care to be one but playing warrior as anything else feel awful.,"Nov 11, 2022 2:38 am",Warrior
+Saw this after I commented. But yea exactly! Lol They have some really good ones. Panda sprint is chefs kiss!,"Nov 11, 2022 3:22 am",Warrior
+Undead warrior makes no sense.,"Nov 11, 2022 5:10 am",Warrior
+nah,"Nov 11, 2022 6:36 am",Warrior
+"How so? They are just like normal humans, except they are undead.","Nov 11, 2022 3:09 pm",Warrior
+Woo! Whirlwind! Oops there goes both arms this time!,"Nov 11, 2022 4:26 pm",Warrior
+What about a skeleton carrying heavy armour around looks resoanable to you?,"Nov 14, 2022 12:32 am",Warrior
+"Well I mean they are magical zombies, no? They were raised by one of the biggest and most powerful villains we’ve fought so far. As for the ones raised by sylvanas she uses the big angels that she corrupted (I have no clue how to spell the name, too complicated ) and they imbue them with magic to raise them from undeath. By your logic the Lich King is pretty much useless because all those zombies running around should die with 1 hit of a stick because of how decayed they are.","Nov 15, 2022 3:19 am",Warrior
+"I never said any on it made no sense in game or lore wise, it is just goofy and I find it to be absurd, same as gnomes or tiny races in general for RPGs.","Nov 15, 2022 10:40 am",Warrior
+They also have the best 1 2 hander weapon animations. Being able to use a 2 hander with only 1 hand in combat.,"Nov 16, 2022 7:43 pm",Warrior
+Pandaren are just ike mains,"Nov 17, 2022 2:40 am",Warrior
+Is it really supposed to be this bad? i’m not a 3k player by any means but i ive got some respectable exp under my belt and i for the life of me cannot do any way near as much damage as 80% of the other classes whats going on? is this a me issue? i do 0 pressure even during my burst the damage is lower than most classes sustained damage,"Nov 16, 2022 2:30 pm",Warrior
+I’m sure this somehow means you’re forced to play fury and will uninstall instead,"Nov 16, 2022 3:06 pm",Warrior
+Im pretty sure it means ive played the same spec for over 10 years and in no way should any spec be made very weak to the point you should not be able to play it at a competitive level. your mindset is so flawed,"Nov 16, 2022 4:25 pm",Warrior
+What would you consider “respectable” ? Because it shows that you literally have done no keys and have never completed a raid even on LFR.,"Nov 16, 2022 6:17 pm",Warrior
+"Unless you mean 3k pvp score? Idk if it even goes that high, idk anything about pvp","Nov 16, 2022 6:35 pm",Warrior
+"Im pretty sure suggesting that his “burst” isnt competing against “other players”, while not completely detailing, is an easy assumption to the topic being focused in a pvp perspective.","Nov 16, 2022 7:04 pm",Warrior
+"Amidst all the doom, let’s just give a shout out to 1h strength spears and all the good tmog that comes with it.","Nov 9, 2022 10:48 pm",Warrior
+What you talkin bout Willis?,"Nov 10, 2022 10:36 am",Warrior
+"It’s not much, but I can now actually tmog my prot spec with a 1h spear and shield. Gotta take joy in the little things.","Nov 10, 2022 11:24 am",Warrior
+That’s fantastic! I’m so excited and I have no intention of hiding it!,"Nov 10, 2022 12:59 pm",Warrior
+Oh wow! That’s awesome!,"Nov 10, 2022 2:38 pm",Warrior
+Hoping they’ve worked on a spear/shield animation,"Nov 11, 2022 4:48 pm",Warrior
+"Very optimistic, but cautious. This isnt the first one handed spear thats been patched into a two handed spear after launch.","Nov 11, 2022 5:12 pm",Warrior
+Would love to DW spears that arent way too big and held like a dummy.,"Nov 15, 2022 7:03 pm",Warrior
+"Very true!
+To implement a proper 1h spear, they need very, very different animations to existing movesets (sword, mace & axe).","Nov 16, 2022 11:05 am",Warrior
+Would be nice to have spear animations that are similar to the souls games tbh,"Nov 16, 2022 6:15 pm",Warrior
+"While Raging Blow is empowered by Recklessness if making use of Reckless Abandon talent, Crushing Blow should charge and it doesnt, same happens when Rampage procs Recklessness, it doesn’t work either, it does empower it but not working properly, tooltip says it charges, but it doesn’t","Nov 15, 2022 6:11 am",Warrior
+"They removed that, it no longer charges you to your target. tooltip just needs changed.","Nov 15, 2022 3:57 pm",Warrior
+"Yep, the did now, now as in this past tuesday because before it used to say on the tooldtip, “charges” clearly said that, now it doesn’t. Now it’s okay, it does what the tooltip says","Nov 16, 2022 1:02 pm",Warrior
+"I pulled out my warrior to get the new gear for transmog and when I messed around with the talent tree, I chose Colossus Smash, then Warbreaker and neither are in my spellbook. Is there a specific tree that I’m not understanding? Sorry if this has been asked a million times but I couldn’t find a thread for it.","Nov 16, 2022 1:44 am",Warrior
+Make sure youre looking under the Arms tab in your spellbook. Shares class abilities will be under one tab and spec specific will be under another.,"Nov 16, 2022 11:58 am",Warrior
+"Yeah, I figured it out, it was an addon. Thanks.","Nov 16, 2022 12:25 pm",Warrior
+What are my main rage generators? I feel like I am rage starved. Or what is recommended rotation?,"Nov 15, 2022 11:06 pm",Warrior
+"Shield slam, Thunder Clap, and Devastator auto attacks will generate rage for you. On top of that you should talent into Rend, Blood and Thunder, and Bloodsurge for rage coming in from your bleeds. If you go Thunderlord and Booming voice that is a good generator, offensive, and defensive cooldown too.","Nov 15, 2022 11:59 pm",Warrior
+"With the release of the 2nd Phase of the Prepatch, we got some patch balance for the talent tree. idk if i’m wrong but in one of them says: "" * Titanic Rage now causes Odyn’s Fury to Enrage you, deal 10% increased damage and grants you 2-4 stacks of Whirlwind. Titanic Rage also reduces the cooldown of Odyn’s Fury by 10 seconds."" and in-game it doesnt reduces the cooldown","Nov 15, 2022 10:43 pm",Warrior
+"the CD reduction was removed, i think in favor of the 10% damage buff. Most likely to keep the CDs lined up.","Nov 15, 2022 11:03 pm",Warrior
+"Not being able to cancel bladestorm downright feels awful. Not being able to cancel bladestorm to get a kill in an arena or bg is horrible on its own, but just fat fingering it in pve or any content becoming a “sucks to be u kid sit there and watch it spin for 6 seconds until u can play the game again” scenario feels bad. Anyone else feel this way or am I just trippin?","Nov 15, 2022 7:00 pm",Warrior
+"Totally forgot to mention how you have no control over the first 6 seconds of avatar now if you go w/ blademasters torment, which also just feels reeeeeal bad","Nov 15, 2022 7:04 pm",Warrior
+"The hurricane talent makes it so you can’t cancel bladestorm, because hurricane progresses regardless of whether or not you are channeling bladestorm.","Nov 15, 2022 8:49 pm",Warrior
+"It might just be me, but I never see warriors in pvp matches. And I’m getting my butt handed to me. Is it just me, or are we hurting in pvp atm","Nov 13, 2022 1:08 am",Warrior
+Hurting in PvP atm cause most other specs are just broken so ppl are abusing them in Prepatch.,"Nov 13, 2022 1:50 am",Warrior
+No reason to play Warrior when you can play DH be immortal do 3 times as much damage with infinite mobility.,"Nov 13, 2022 1:59 am",Warrior
+I’ve noticed that too,"Nov 13, 2022 2:08 am",Warrior
+I mean even Ret is 2 tapping people. Getting hit for 80k into 120k from Ret.,"Nov 13, 2022 2:17 am",Warrior
+I see a Ret or DH I pop shield wall and pray but it still doesn’t help. So I’m just sticking with WotLK where PvP actually is balanced and fun. Prepatch is just broken don’t expect much from it.,"Nov 14, 2022 4:42 am",Warrior
+Gotcha. Thanks!,"Nov 14, 2022 12:04 pm",Warrior
+I do rated pvp in prot as arms has been too vulnerable.,"Nov 14, 2022 12:24 pm",Warrior
+Getting some tasty SC crits!,"Nov 14, 2022 4:28 pm",Warrior
+"Warrior is a really bad spot in PvP at the moment. It is actually comical how bad warriors are performing in PvP. Damage is insanely low compared to most classes, and survivability is also really bad. I refuse to log into my warrior until they get buffed. It is currently unplayable.","Nov 14, 2022 4:50 pm",Warrior
+"Armor is really strong right now, so any classes that only deal physical are extremely weak. I just overcome that by doing my own thing. Ravager+hurricane+spear+signet and then throw an aftershock in there for good measure. Usually wins the shuffle outright or forces every cd and win on next go","Nov 14, 2022 10:03 pm",Warrior
+"Its not you, warrior is just really weak now. needs HUGE damage buffs","Nov 15, 2022 3:28 pm",Warrior
+I’m trying to figure out what to play as melee and so far it sounds like DK and DH are the only melee “in a good spot”,"Nov 15, 2022 5:16 pm",Warrior
+How is everyones experience so far ?,"Oct 29, 2022 12:14 pm",Warrior
+"Before the prepatch I felt really strong, now I feel a bit less than that.","Oct 29, 2022 5:10 pm",Warrior
+I tried the bleed spec and it was fun but not my playstyle.,"Oct 29, 2022 7:17 pm",Warrior
+"I have found some enjoyment and success playing Avatar with Warlords Torment, and the right side of the Arms tree taking the buffs to execute and mortal strike.","Oct 29, 2022 9:13 pm",Warrior
+The problem I have noticed thus far is being very susceptible to CC without bladestorm. I find mysef getting chained roots / stunned and unable to connect outside of charge.,"Oct 31, 2022 5:12 am",Warrior
+"I am going to try swapping the Execute / mortal strike buffs for Bladestorm and unhinged / hurricane, but i fear the dmg loss may be too much.","Oct 31, 2022 9:43 am",Warrior
+I saw in another thread that some Arms players were hitting 60k+ Mortal strikes.,"Nov 8, 2022 3:36 pm",Warrior
+"I am curious what everyone elses experience is so far, and if anyone has any tips","Nov 15, 2022 3:45 pm",Warrior
+Title.,"Nov 10, 2022 8:28 pm",Warrior
+I was playing around with protection tree and skill and honestly it looks like it would be fine to tank as protection with a 2h. I’ve already done so on a lower and capped warrior.,"Nov 11, 2022 5:12 am",Warrior
+Anyone else do this or plan to?,"Nov 12, 2022 12:48 pm",Warrior
+The arms revenge build of old was fun. You could tank and out DPS the raid or dungeon.,"Nov 13, 2022 11:12 am",Warrior
+??? you wont be able to block… shield block is our main mitigation.,"Nov 13, 2022 12:35 pm",Warrior
+I used to do it in vanilla while leveling. I don’t think it would be worth it in retail.,"Nov 14, 2022 3:15 am",Warrior
+Is this a stupid check?,"Nov 14, 2022 9:39 pm",Warrior
+"Shield slam requires a shield, revenge requires a one hander, devastate requires a one hander which means devastator doesn’t even trigger, this means deep wounds cannot trigger, and you gain 4 rage per auto attack which means it would be taking you 10 years just to press ignore pain since you also cannot shield block or block any attacks. Have fun doing nothing but thunder clap I guess.","Nov 14, 2022 10:16 pm",Warrior
+This would require our number one mitigation ie block to be replaced by parry.,"Nov 14, 2022 10:56 pm",Warrior
+With our current toolkit and the way % parry is calculated I just cannot envision a defensive encounter that would benefit with a 2H instead of ye old buckler.,"Nov 15, 2022 1:15 am",Warrior
+As they say keep your shield arm strong!,"Nov 15, 2022 10:37 am",Warrior
+not you projecting.,"Nov 15, 2022 2:05 pm",Warrior
+"The whole point of the trees is to see variation and diversity re-introduced into the game. Me asking about a very off-meta, unusual way of playing a spec is valid considering the devs have stated that (with the trees) people have the option to build something wrong. However you get new meta from off meta so it never hurts to explore things. Wrong can/could quickly turn to right.","Nov 15, 2022 3:30 pm",Warrior
+"Lets talk about Arms Warrior currently in Dragonflight beta.
+At the moment, Arms Warrior is the worse melee class in Dragonflight beta. (not the prepatch) which in it by itself is pretty dire.","Nov 12, 2022 11:28 pm",Warrior
+"Arms Warrior has been the kingpin throughout Shadowland for large majority of it. But it has honestly fallen from grace moving to Dragonflight despite getting impending victory, despite having access to double time, storm bolt, heroic leap cooldown. You can get all these things simultaneously but it’s got really only one thing going for which is skull splitter burst damage build based off bleeds, rends etc. However, this doesn’t work with the current meta and changes. With the 40% stamina buff. It’s really struggling, any spec that’s only focused on burst damage is going to have a hard time executing on kill windows given that avenue. It’s damage is in an all right position but honestly even with the mobility changes and survivability from impending victory, it’s survivability is the lowest of any specialization right now.","Nov 12, 2022 11:35 pm",Warrior
+"I’d say overall you are in a worse position coming to Dragonflight than you are in Shadowland currently. It looks like, if no major changes is coming which at this point seems very likely. I’d say, you will probably be playing Fury for PVP throughout Dragonflight since its sustainability is much greater than that of Arms.","Nov 12, 2022 11:38 pm",Warrior
+You have to remember we don’t have our full talent tree yet.,"Nov 13, 2022 12:00 am",Warrior
+"Yeah looking at the tree, I don’t think a couple more points is going to fix this class. But lets see what’s going to happen. You have to understand that other classes that are destroying right now will have as much points as we do.","Nov 13, 2022 12:33 am",Warrior
+"Arms Warrior is one of the top DPS specs in raids…
+Fury Warrior is one of the top melee in M+…
+Prot Warrior is the best tank in M+…","Nov 13, 2022 2:53 am",Warrior
+What dude?,"Nov 13, 2022 2:58 am",Warrior
+yes the talent tree fills the gaps you gained from covenants and the result is the same XDD,"Nov 13, 2022 9:10 am",Warrior
+"hi
+beta player here
+it doesn’t get better at 70","Nov 13, 2022 9:50 am",Warrior
+"Fury warrior S tier, Prot Warrior S tier, Arms Warrior S tier…OP tripping. The ONLY thing they will need is a dps balance pass just like every class once raiding starts.","Nov 13, 2022 12:14 pm",Warrior
+"What source are you getting this from???
+I’m also basing these off PVP","Nov 13, 2022 12:26 pm",Warrior
+You’re trying really hard to not get warrior nerfed lol,"Nov 13, 2022 12:41 pm",Warrior
+Oh never mind I see a comment that you say,"Nov 13, 2022 12:53 pm",Warrior
+Idk about pvp never mind me,"Nov 13, 2022 1:01 pm",Warrior
+"Dude, there are many sources… Warcraftlogs and Subcreation just to name a few. It seems like the only source you have if your own miserable self and its just evident that you’re… bad.","Nov 13, 2022 1:10 pm",Warrior
+Fury Warrior is S tier in PvP.,"Nov 13, 2022 1:14 pm",Warrior
+"Sorry to be harsh, but its annoying coming to forums to see people complain about how weak a class/spec is when it actually isn’t.","Nov 13, 2022 2:31 pm",Warrior
+"Fury warrior is better than arms at 70, but neither spec is close to S tier lmao","Nov 13, 2022 4:52 pm",Warrior
+"i’m sure you know more than the multi-glad with several r1s under their belt, but you wanna show your work?","Nov 13, 2022 4:57 pm",Warrior
+"Are you sure you’re playing correctly? Warrior is freaking lit, yo.","Nov 13, 2022 4:59 pm",Warrior
+"Making a new warrior to start the adventure over again (I just love fury) and confused on whether to go lightforged again, female nelf or female human. I love how female human looks but also night elf so confused on which to go with animation wise","Oct 26, 2022 1:34 pm",Warrior
+I like NE race personally,"Oct 26, 2022 1:35 pm",Warrior
+"For PVP I would suggest human or gnomes.
+For looks humans are the best looking transmog-wise IMO.","Oct 26, 2022 1:46 pm",Warrior
+I think whats important is that you like the feel of the character you’re playing. A lot of pvpers will choose physically smaller races for visibility and just look and feel in pvp. You’re going to be playing the character quite a bit so it’s important you like the way they look and feel. Then pick based of what racials suit you.,"Oct 26, 2022 2:30 pm",Warrior
+Female Night Elf. Always Female Night Elf.,"Oct 26, 2022 2:46 pm",Warrior
+"But seriously; shadowmeld can be used to target drop casters and aimed shot, and it works as a second vanish if you decide to play rogue","Oct 26, 2022 9:57 pm",Warrior
++1 Crizzly,"Oct 26, 2022 10:26 pm",Warrior
+Those are all alliance races but all real warriors know the answer is Orc,"Oct 26, 2022 10:31 pm",Warrior
+"Undead, for extra CC debuff and not needing to breathe underwater. Also, Cannibalism and their evil laugh make for a winning combo.","Oct 27, 2022 1:51 am",Warrior
+"human
+10char","Oct 31, 2022 12:05 pm",Warrior
+"Orcs or dwarves, can’t go wrong.","Nov 1, 2022 2:42 am",Warrior
+My arms warrior is this dwarf. I really like how we look in plate armor.,"Nov 1, 2022 9:08 am",Warrior
+"I’d say go mechagnome. They get so much love as warriors! Squeak squeak, oiled up and ready to go~ Charges!","Nov 1, 2022 2:44 pm",Warrior
+"I love Undead, but I wish cannibilize was better.","Nov 9, 2022 4:09 am",Warrior
+Mag’har Orc Male,"Nov 9, 2022 6:23 am",Warrior
+Animations are huge for me so all my 2h melee characters are panda.,"Nov 9, 2022 8:36 am",Warrior
+"Those that get it, get it lol.","Nov 9, 2022 9:40 am",Warrior
+Behold the glory of the Kul Tiran Warrior.,"Nov 9, 2022 12:01 pm",Warrior
+"(My avatar hasn’t updated yet, but Kul Tirans look awesome in plate… and are massive)","Nov 10, 2022 8:13 am",Warrior
+Zandalari Trolls are also huge with amazing skills.,"Nov 10, 2022 8:25 pm",Warrior
+Whirlwind and Execute. Both abilities that we couldn’t even use up until several months ago when blizz added them back in as cross spec abilities. Do you use them?,"Nov 11, 2022 10:03 pm",Warrior
+"I know even though i’ve talented into Rend, I don’t actually put it on my bar since Rend feels like trash to press. I talented into it purely due to Blood and thunder being a BiS talent.","Nov 11, 2022 11:12 pm",Warrior
+"Yeh execute you use as a rage dump, think it procs too off something. Mad not to use it. You dont put rend on your bar if your talented to it, better buttons to press. Whirlwind nope, its not even much damage fully buffed on a fury warrior. It just got buffed but its still not enough.","Nov 11, 2022 11:16 pm",Warrior
+"Rend is stupid as an active ability since you have to manually apply the dot each time to each enemy. I’m sure blizz realises this due to the fact that Blood and thunder exists. Rend should really just be another passive to single target with Blood and thunder making it actually useful like it does now. I also find it just disrupts my rotation. If I wanted to play a proper DoT maintenance class, I would be playing on my warlock. Not my warrior.","Nov 12, 2022 1:05 pm",Warrior
+The reason you don’t put it on your bar is because you don’t have to press it. Since it’s applied in your normal rotation.,"Nov 13, 2022 5:41 pm",Warrior
+"Right, so overall we remove devestate and rend from the hotbar so we can click thunderclap and more defensives overall.","Nov 13, 2022 7:24 pm",Warrior
+Well it’s not just that but offensively Prot is in a good spot with right talents. You should be pressing Shield Slam almost every other global. So you only have room for Tclap/Revenge weaving for damage.,"Nov 14, 2022 2:53 am",Warrior
+"WW has been DOA since it came back in SL and has never been worth the rage, the only scenero i can imagine it being used is to dmg enemies behind you that revenge cant reach…and even then if you find yourself in this situation as prot you have bigger problems xD","Nov 14, 2022 2:56 am",Warrior
+"In regards to rend it serves little purpose to use individually as our impactful talent blood and thunder bakes it into our rotation. Furthermore with avatar/unstoppable force making a comeback we can expect to see rend have 100% uptime, simmilar to deep wounds","Nov 14, 2022 6:54 pm",Warrior
+Whirlwind is absolutely useless for prot - it was a product of unpruning abilities from classes with no real followup. Slam is also just as worthless for protection.,"Nov 14, 2022 7:26 pm",Warrior
+"Execute is excellent to use as prot (in single target fights). The high rage cost feeds into indomitable self healing and anger management CD reduction. Execute can also reset shield slam CD - they combo well with each other. It also greatly boosts your damage. The faster they fall, the less damage incoming to you.","Nov 14, 2022 8:03 pm",Warrior
