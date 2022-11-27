@@ -11,6 +11,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import ElementNotInteractableException
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
 
 import os
 
@@ -28,7 +33,7 @@ def avoid_detection():
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249 Safari/537.36")
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_argument('--start-maximized')
-
+    
 
     # just some options passing in to skip annoying popups
     options.add_argument('--no-first-run --no-service-autorun --password-store=basic')
@@ -77,6 +82,7 @@ def get_replies(driver,url,class_name='default',count=1):
     comment=[]
     date = []
     posts = get_id(driver=driver,url=url)
+    likes = []
     with driver:
         driver.get(url)
         html = driver.find_element(By.TAG_NAME,'html')
@@ -84,33 +90,56 @@ def get_replies(driver,url,class_name='default',count=1):
             try:
                 #post_39 > div > div.topic-body.clearfix.highlighted > div.topic-meta-data > div.post-infos > div.post-info.post-date > a > span
                 comment_selector = f'#{post} div > div.topic-body.clearfix > div.regular.contents > div.cooked > p'
-                # date_selector = f'#{post} > div > div.topic-body.clearfix.highlighted > div.topic-meta-data > div.post-infos > div.post-info.post-date > a > span'
-                target = driver.find_element(By.CSS_SELECTOR,f'#{post}')
-                driver.execute_script('arguments[0].scrollIntoView(true);', target)
-                time.sleep( 0.4 )
-                comment.append(driver.find_element(By.CSS_SELECTOR,comment_selector).text)
-                # date.append(target.find_element(By.CSS_SELECTOR,date_selector).get_attribute('title'))
+                date_selector = f'#{post} .relative-date'
+                # like_selector = f'#{post} > div > div.topic-body.clearfix.highlighted > div.regular.contents > section > nav > div > div > button.widget-button.btn.button-count.like-count.highlight-action.regular-likes.btn-text.selectorgadget_selected'
+                # like_selector = f'#{post} > div > div.topic-body.clearfix > div.regular.contents > section > nav > div > div > button.widget-button.btn.button-count.like-count.highlight-action.regular-likes.btn-text'
+                # like_selector = f'#{post} div > div.topic-body.clearfix > div.regular.contents > section > nav > div > div'
+                like_selector = f'#{post} .btn-text'
+
+                
+                # date_xpath=('.//*[contains(concat( " ", @class, " " ), concat( " ", "relative-date", " " ))]')
+                element = driver.find_element(By.CSS_SELECTOR,f'#{post}')
+                driver.execute_script('arguments[0].scrollIntoView(true);', element)
+                time.sleep( 0.2 )
+                comment.append(element.find_element(By.CSS_SELECTOR,comment_selector).text)
+                # target = driver.find_element(By.CSS_SELECTOR,date_selector)
+                # target = driver.find_element(By.XPATH,date_xpath)
+                # driver.execute_script('arguments[0].scrollIntoView(true);', target)
+                # time.sleep( 0.1)
+                date.append(element.find_element(By.CSS_SELECTOR,date_selector).get_attribute('title'))
+                # date.append(element.find_element(By.XPATH,date_xpath).get_attribute('date-time'))
+                likes.append(element.find_element(By.CSS_SELECTOR,like_selector).text)
             except:
                 print(post)
+                likes.append('0')
                 continue
 
-                    
-    #    #post_84 > div > div.topic-body.clearfix.highlighted > div.topic-meta-data > div.post-infos > div.post-info.post-date > a > span
-                
-                # comments = [com.text for com in comments]
-    df = pd.DataFrame(data = list(zip(posts,comment)),columns=['post_id','comment'])
+    df = pd.DataFrame(data = list(zip(posts,comment,likes,date)),columns=['post_id','comment','likes','date'])
+    # df = pd.DataFrame(data = list(zip(posts,comment)),columns=['post_id','comment'])
+        # df = pd.DataFrame(date)
                 # df['comment'][reply] = comment.text
-            
-            
-        # comments = driver.find_elements(By.CSS_SELECTOR,'.cooked > p')
-        # comments = [com.text for com in comments]
-        # time.sleep(randint(1,5))
-        # dates = driver.find_elements(By.CSS_SELECTOR,'.post-info.post-date > a > span')
-        # dates = [date.get_attribute('title') for date in dates]
-        # df = pd.DataFrame(list(zip(comments, dates)),
-        #     columns =['comment', 'date'])        
-        # df['class'] = class_name
+
     return df
+
+
+def check_exists_by_xpath(driver, xpath):
+    try:
+        driver.find_element(By.XPATH, xpath)
+    except NoSuchElementException:
+        return False
+    return True
+
+
+
+def clean_data(df):
+    likes = df['likes']
+    for l in range(len(likes)):
+        if likes[l].isdigit() == False:
+            likes[l] ='0'
+    df['likes'] = likes
+
+    return df
+
 
 def get_links(driver,url):
     with driver:
@@ -154,7 +183,7 @@ def get_id(driver,url):
         while True:
             previous_scrollY = driver.execute_script( 'return window.scrollY' )
             driver.execute_script( 'window.scrollBy( 0, 230 )' )
-            time.sleep( 0.4 )
+            time.sleep( 0.2 )
             if previous_scrollY == driver.execute_script( 'return window.scrollY' ):
                 post_id = driver.find_elements(By.XPATH,'.//*[contains(@id, "post")]')
                 post_id = [p.get_attribute('id') for p in post_id]
@@ -167,10 +196,16 @@ def test_func(driver,url):
     # post_id =get_id(driver=driver,url=url)
     # print(get_replies(driver,url))
     df = get_replies(driver=driver,url=url)
+    # df = clean_data(df)
+    # driver = avoid_detection()
+    # df = get_replies_no_js(driver=driver,url=url)
     df.to_csv('test_data.csv',index=False,encoding='utf-8')
     # print(df)
     # print(get_id(driver=driver,url=url))
     # print(get_reply_count(driver=driver,url=url))
+    # driver.quit()
+    
+
 
         
     
@@ -199,7 +234,7 @@ if __name__== "__main__":
     # # print(selector)
     # # df = get_replies(driver=driver,url=url,class_name='Death Knight',count=count)
     # print(df)
-    # driver.quit()
+    driver.quit()
    
     
     

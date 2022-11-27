@@ -137,6 +137,8 @@ if __name__ == "__main__":
     options.add_argument('--no-first-run --no-service-autorun --password-store=basic')
     driver = uc.Chrome(options=options)
     
+
+    
     
     with driver:
         driver.get('https://nowsecure.nl')  # known url using cloudflare's "under attack mode"
