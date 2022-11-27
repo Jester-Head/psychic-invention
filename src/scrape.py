@@ -88,26 +88,26 @@ def get_replies(driver,url,class_name='default',count=1):
         html = driver.find_element(By.TAG_NAME,'html')
         for post in posts:
             try:
-                #post_39 > div > div.topic-body.clearfix.highlighted > div.topic-meta-data > div.post-infos > div.post-info.post-date > a > span
+                
                 comment_selector = f'#{post} div > div.topic-body.clearfix > div.regular.contents > div.cooked > p'
                 date_selector = f'#{post} .relative-date'
-                # like_selector = f'#{post} > div > div.topic-body.clearfix.highlighted > div.regular.contents > section > nav > div > div > button.widget-button.btn.button-count.like-count.highlight-action.regular-likes.btn-text.selectorgadget_selected'
-                # like_selector = f'#{post} > div > div.topic-body.clearfix > div.regular.contents > section > nav > div > div > button.widget-button.btn.button-count.like-count.highlight-action.regular-likes.btn-text'
-                # like_selector = f'#{post} div > div.topic-body.clearfix > div.regular.contents > section > nav > div > div'
+                
+                
+                
                 like_selector = f'#{post} .btn-text'
 
                 
-                # date_xpath=('.//*[contains(concat( " ", @class, " " ), concat( " ", "relative-date", " " ))]')
+                
                 element = driver.find_element(By.CSS_SELECTOR,f'#{post}')
                 driver.execute_script('arguments[0].scrollIntoView(true);', element)
                 time.sleep( 0.2 )
                 comment.append(element.find_element(By.CSS_SELECTOR,comment_selector).text)
-                # target = driver.find_element(By.CSS_SELECTOR,date_selector)
-                # target = driver.find_element(By.XPATH,date_xpath)
-                # driver.execute_script('arguments[0].scrollIntoView(true);', target)
-                # time.sleep( 0.1)
+                
+                
+                
+                
                 date.append(element.find_element(By.CSS_SELECTOR,date_selector).get_attribute('title'))
-                # date.append(element.find_element(By.XPATH,date_xpath).get_attribute('date-time'))
+                
                 likes.append(element.find_element(By.CSS_SELECTOR,like_selector).text)
             except:
                 print(post)
@@ -115,9 +115,9 @@ def get_replies(driver,url,class_name='default',count=1):
                 continue
 
     df = pd.DataFrame(data = list(zip(posts,comment,likes,date)),columns=['post_id','comment','likes','date'])
-    # df = pd.DataFrame(data = list(zip(posts,comment)),columns=['post_id','comment'])
-        # df = pd.DataFrame(date)
-                # df['comment'][reply] = comment.text
+    
+        
+                
 
     return df
 
